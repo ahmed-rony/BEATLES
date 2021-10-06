@@ -1,0 +1,703 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+
+/* ==========   common css   ============ */
+.heading{
+    text-align: center;
+}
+.heading h3{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #353535;
+    font-size: 24px;
+}
+.heading .heading-line{
+    margin-top: -15px;
+    
+}
+.heading span{
+    height: 1px;
+    display: inline-block;
+    background: #0872b9;
+}
+.heading .line1{
+    width: 48px;
+}
+.heading .line2{
+    width: 3px;
+}
+.heading .line3{
+    width: 2px;
+}
+.heading .line4{
+    width: 1px;
+}
+/* ===========    heading common    ============== */
+.full-wrapper{
+    width: 100%;
+}
+.full-container{
+    width: 940px;
+    margin: 0 auto;
+}
+/* ===========   full stack css   ============== */
+
+
+.header-bg{
+    height: 32px;
+    background: #0872b9;
+}
+.header-bg .header{
+    height: 32px;
+}
+.header-bg .header .text{
+    width: 160px;
+    height: 32px;
+    float: left;
+}
+.header-bg .header .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    color: #e7e7e7;
+    text-transform: capitalize;
+}
+.header-bg .header .icons{
+    width: 780px;
+    height: 32px;
+    float: left;
+}
+.header-bg .header .icons ul{
+    float: right;
+}
+.header-bg .header .icons ul li{
+    float: left;
+    margin-left: 24px;
+}
+.header-bg .header .icons ul li:first-child{
+    margin-left: 0;
+}
+.header-bg .header .icons ul li a i{
+    color: #e7e7e7;
+    line-height: 32px;
+    font-size: 14px;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.2s;
+    -ms-transition: all ease 0.2s;
+    -o-transition: all ease 0.2s;
+}
+.header-bg .header .icons ul li a i:hover{
+    color: #353535;
+}
+/* =========   header ends    =========== */
+
+/* ==========   menu    ================ */
+
+.menu-bg{
+    height: 80px;
+    background: #ffffff;
+}
+.menu-bg .menu{
+    height: 80px;
+}
+.menu-bg .menu .logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.menu-bg .menu .logo a img{
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.menu-bg .menu .menu-bar{
+    width: 860px;
+    height: 80px;
+    float: left;
+}
+.menu-bg .menu .menu-bar ul{
+    float: right;
+}
+.menu-bg .menu .menu-bar ul li{
+    float: left;
+    margin-left: 15px;
+    line-height: 80px;
+}
+.menu-bg .menu .menu-bar ul li:first-child{
+    margin-left: 0;
+}
+.menu-bg .menu .menu-bar ul li a{
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.menu-bg .menu .menu-bar ul li a:hover{
+    color: #0872b9;
+}
+/* =============    menu ends   ============ */
+
+/* =============   banner    ================= */
+
+.banner-bg{
+    height: 400px;
+    background: url(../images/banner.jpg) no-repeat center / cover;
+    position: relative;
+    z-index: 1;
+}
+.banner-bg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.banner-bg .banner{
+    height: 400px;
+    color: #fff;
+    text-align: right;
+}
+
+.banner-bg .banner h2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 75px;
+}
+.banner-bg .banner h1{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.banner-bg .banner p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 470px;
+    margin-bottom: 35px;
+}
+.banner-bg .banner a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 18px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.banner-bg .banner a:hover{
+    background: #0872b9;
+    border-color: #0872b9;
+}
+.banner-bg .banner a:last-child{
+    margin-left: 16px;
+}
+/* ==========   banner ends    =============== */
+
+/* ============   about   ============== */
+
+.about-bg{
+    height: 330px;
+}
+.about-bg .about{
+    height: 330px;
+    
+}
+.about-bg .about .about-heading{
+    height: 65px;
+    margin-top: 55px;
+}
+
+
+.about-bg .about .about-heading .heading-line{
+    margin-left: -28px;
+}
+
+.about-bg .about .about-content .about-img{
+    width: 380px;
+    height: 265px;
+    float: left;
+}
+.about-bg .about .about-content .about-img img{
+    width: 100%;
+}
+.about-bg .about .about-content .about-text{
+    width: 540px;
+    height: 265px;
+    float: left;
+    margin-left: 20px;
+}
+.about-bg .about .about-content .about-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #555555;
+}
+.about-bg .about .about-content .about-text p:first-child{
+    margin-top: 40px;
+    margin-bottom : 32px;
+}
+/* ===========    about ends   ================ */
+
+/* =============   services   =============== */
+
+.service-bg{
+    height: 262px;
+}
+.service-bg .service{
+    height: 262px;
+}
+.service-bg .service .service-heading{
+    height: 93px;
+    margin-top: 55px;
+}
+.service-bg .service .service-heading .heading-line{
+    margin-left: -65px;
+}
+
+.service-bg .service .service-content{
+    height: 166px;
+}
+.service-bg .service .service-content .service-item{
+    width: 300px;
+    height: 166px;
+    background: #f1f1f1;
+    float: left;
+    position: relative;
+    text-align: center;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.service-bg .service .service-content .service-item:hover{
+    box-shadow: 1px 1px 5px 0px rgba(85, 81, 81, 0.493);
+}
+.service-bg .service .service-content .service-item .icon-bg{
+    width: 81px;
+    height: 81px;
+    background: #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+.service-bg .service .service-content .service-item .icon-bg .border{
+    width: 75px;
+    height: 75px;
+    border: 2px solid #f1f1f1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    margin-top: 3px;
+    margin-left: 3px;
+    box-sizing: border-box;
+    
+}
+.service-bg .service .service-content .service-item:hover .icon-bg .border{
+    border-color: #5bc5f4;
+}
+.service-bg .service .service-content .service-item .icon-bg .border .icon-bg2{
+    width: 67px;
+    height: 67px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 2px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.service-bg .service .service-content .service-item:hover .icon-bg .border .icon-bg2{
+    background: #5bc5f4;
+
+}
+
+.service-bg .service .service-content .service-item .icon-bg .border .icon-bg2 img{
+    transform: translateY(15px);
+    -webkit-transform: translateY(15px);
+    -moz-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    -o-transform: translateY(15px);
+}
+
+
+
+.service-bg .service .service-content .service-item h4{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #353535;
+    font-weight: 500;
+    margin-top: 47px;
+    margin-bottom: 6px;
+
+}
+.service-bg .service .service-content .service-item p{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: #555555;
+    padding: 0 20px;
+}
+/* ==============   service  ends   ================ */
+
+/* =================   portfolio    ================== */
+.portfolio-bg{
+    height: 605px;
+    margin-bottom: 55px;
+}
+.portfolio-bg .portfolio{
+    height: 605px;
+    
+}
+.portfolio-bg .portfolio .portfolio-heading{
+    height: 65px;
+    margin-top: 50px;
+}
+.portfolio-bg .portfolio .portfolio-heading .heading-line{
+    margin-left: -80px;
+}
+.portfolio-bg .portfolio .portfolio-content{
+    height: 545px;
+}
+.portfolio-bg .portfolio .portfolio-content .gallery-col{
+    width: 220px;
+    height: 100%;
+    float: left;
+}
+.portfolio-bg .portfolio .portfolio-content .gallery-col .portfolio-item{
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-bg .portfolio .portfolio-content .gallery-col .portfolio-item .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+}
+.portfolio-bg .portfolio .portfolio-content .gallery-col .portfolio-item:hover .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.portfolio-bg .portfolio .portfolio-content .gallery-col .portfolio-item .overlay .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+}
+.portfolio-bg .portfolio .portfolio-content .gallery-col .portfolio-item .overlay .icon a i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    background: #5dc6f4;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* =============  portfolio ends   ================= */
+
+/* =============   team    ========================= */
+
+.team-bg{
+    height: 385px;
+    margin-bottom: 55px;
+}
+.team-bg .team{
+    height: 385px;
+}
+.team-bg .team .team-heading{
+    height: 65px;
+}
+.team-bg .team .team-heading .heading .heading-line{
+    margin-left: -25px;
+}
+
+.team-bg .team .team-content {
+    height: 320px;
+}
+.team-bg .team .team-content .team-item{
+    width: 220px;
+    height: 320px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+.team-bg .team .team-content .team-item .team-pic{
+    width: 220px;
+    height: 270px;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    position: relative;
+}
+.team-bg .team .team-content .team-item .team-pic img{
+    width: 100%;
+    height: 100%;
+}
+.team-bg .team .team-content .team-item .team-pic:hover{
+    box-shadow: 1px 1px 5px 0px rgba(85, 81, 81, 0.493);
+
+}
+
+.team-bg .team .team-content .team-item .team-pic .overlay{
+    width: 80px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: -80px;
+    text-align: center;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+}
+.team-bg .team .team-content .team-item .team-pic:hover .overlay{
+    position: absolute;
+    right: 0;
+}
+.team-bg .team .team-content .team-item .team-pic .overlay ul{
+    margin-top: 35px;
+}
+.team-bg .team .team-content .team-item .team-pic .overlay ul li{
+    margin-bottom: 15px;
+}
+.team-bg .team .team-content .team-item .team-pic .overlay ul li:last-child{
+    margin-bottom: 0;
+}
+
+.team-bg .team .team-content .team-item .team-pic .overlay ul li a i{
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    box-sizing: border-box;
+
+}
+.team-bg .team .team-content .team-item .team-pic .overlay ul li a i:hover{
+    background: #5bc5f4;
+    border-color: #5bc5f4;
+}
+.team-bg .team .team-content .team-item h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #353535;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    margin-top: 5px;
+}
+.team-bg .team .team-content .team-item .team-pic:hover + h4{
+    color: #5bc5f4;
+}
+.team-bg .team .team-content .team-item p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #555555;
+}
+/* ============    team ends   ================== */
+
+/* =============   testimonial    ================= */
+
+.testimonial-bg{
+    height: 360px;
+    margin-bottom: 60px;
+}
+.testimonial-bg .testimonial{
+    height: 360px;
+}
+.testimonial-bg .testimonial .testimonial-heading{
+    height: 65px;
+}
+.testimonial-bg .testimonial .testimonial-heading .heading .heading-line{
+    margin-left: -50px;
+}
+.testimonial-bg .testimonial .testimonial-content{
+    height: 295px;
+    width: 100%;
+}
+.testimonial-bg .testimonial .testimonial-content .test-item{
+    width: 460px;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+.testimonial-bg .testimonial .testimonial-content .test-item .img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 36px;
+    margin-left: 190px;
+    
+}
+.testimonial-bg .testimonial .testimonial-content .test-item .img img{
+    width: 100%;
+    height: 100%;
+    /* position: absolute;
+    left: 50%; */
+}
+.testimonial-bg .testimonial .testimonial-content .test-item .text{
+    width: 100%;
+    height: 180px;
+    background: #f1f1f1;
+    position: relative;
+    z-index: 1;
+}
+.testimonial-bg .testimonial .testimonial-content .test-item .text .pyramid{
+    width: 40px;
+    height: 40px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: rotate(45deg) translateX(-50%);
+    -webkit-transform: rotate(45deg) translateX(-50%);
+    -moz-transform: rotate(45deg) translateX(-50%);
+    -ms-transform: rotate(45deg) translateX(-50%);
+    -o-transform: rotate(45deg) translateX(-50%);
+    z-index: -1;
+}
+.testimonial-bg .testimonial .testimonial-content .test-item .text h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #353535;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+.testimonial-bg .testimonial .testimonial-content .test-item .text i{
+    color: #5bc5f4;
+    font-size: 13px;
+    margin-right: -2px;
+    line-height: 24px;
+}
+
+.testimonial-bg .testimonial .testimonial-content .test-item .text h5{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #555555;
+    text-transform: capitalize;
+}
+.testimonial-bg .testimonial .testimonial-content .test-item .text p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #555555;
+    text-transform: capitalize;
+    line-height: 24px;
+    padding: 10px 10px 0;
+}
